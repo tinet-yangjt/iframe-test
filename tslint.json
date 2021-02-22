@@ -80,11 +80,15 @@
       true,
       "single"
     ],
-    "semicolon": {
+    /* "semicolon": {
       "options": [
         "always"
       ]
-    },
+    }, */
+    "semicolon": [
+        false,
+        "always"
+    ],
     "space-before-function-paren": {
       "options": {
         "anonymous": "never",
